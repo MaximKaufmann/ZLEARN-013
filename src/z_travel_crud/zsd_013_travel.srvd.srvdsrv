@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service definition for travel'
+define service ZSD_013_TRAVEL {
+  expose ZC_013_TRAVEL as TravelProcessor;
+  expose /DMO/I_Customer as Passenger;
+  expose /DMO/I_Agency as TravelAgency;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+}
